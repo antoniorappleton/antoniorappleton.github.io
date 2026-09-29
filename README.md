@@ -1,12 +1,18 @@
 # antoniorappleton.github.io
 
-Página inicial da Comunidade CSJ Ramalhão — reencaminha para as apps:
+Página inicial da Comunidade CSJ Ramalhão — hub que agrega as apps da comunidade:
 
 - [Direção de Turma](https://antoniorappleton.github.io/direcao-turma/)
 - [Scriptorium](https://antoniorappleton.github.io/scriptorium/)
 - outras apps futuras (adicionar um `app-tile` em `index.html`)
 
 Sem login nem build: é só HTML/CSS estático na raiz do repositório.
+
+É também uma PWA instalável — no telemóvel, "Adicionar ao ecrã principal" (Android/Chrome)
+ou "Partilhar → Adicionar ao Ecrã Principal" (iOS/Safari) instala o hub como app, com ícone
+próprio e a shell (`index.html`, `css/styles.css`, `manifest.json`, `assets/logo.png`) em cache
+via `sw.js` para abrir mesmo sem rede. As apps individuais (Direção de Turma, Scriptorium, etc.)
+continuam a abrir no browser a partir dos seus próprios domínios/subpastas.
 
 ## Passos para pôr a funcionar
 

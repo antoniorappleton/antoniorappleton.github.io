@@ -4,6 +4,16 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Comunidade CSJ Ramalhão — Apps</title>
+    <meta name="description" content="Hub que agrega as apps da Comunidade CSJ Ramalhão." />
+    <meta name="theme-color" content="#5547eb" />
+
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" href="assets/icons/icon-192.png" />
+    <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Comunidade CSJ" />
+
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -36,5 +46,13 @@
     </main>
 
     <footer class="hub-footer">made by antonio.appleton | Departamento de Programação</footer>
+
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("sw.js");
+        });
+      }
+    </script>
   </body>
 </html>
