@@ -1,4 +1,4 @@
-const CACHE_NAME = "comunidade-csj-hub-v1";
+const CACHE_NAME = "comunidade-csj-hub-v2";
 const SHELL_ASSETS = [
   "/",
   "/index.html",

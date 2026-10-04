@@ -4,6 +4,7 @@ Página inicial da Comunidade CSJ Ramalhão — hub que agrega as apps da comuni
 
 - [Direção de Turma](https://antoniorappleton.github.io/direcao-turma/)
 - [Scriptorium](https://antoniorappleton.github.io/scriptorium/)
+- [SalaJá](https://antoniorappleton.github.io/SalaJa/)
 - outras apps futuras (adicionar um `app-tile` em `index.html`)
 
 Sem login nem build: é só HTML/CSS estático na raiz do repositório.
@@ -25,5 +26,4 @@ continuam a abrir no browser a partir dos seus próprios domínios/subpastas.
 
 ## Adicionar uma nova app
 
-Editar `index.html` e substituir o cartão "Em breve" por um `<a class="app-tile" href="...">`
-igual aos existentes.
+Editar `index.html` e acrescentar um `<a class="app-tile" href="...">` igual aos existentes.
